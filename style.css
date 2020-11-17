@@ -324,3 +324,49 @@ input[type="button"] {
   border-radius: 5px;
   font-weight: 600;
 }
+/* end of updated  */
+
+/* ========
+Users
+=========== */
+
+.users h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+.u-card-container {
+  display: grid;
+  place-items: center;
+  grid-auto-flow: column;
+}
+.u-card-container .u-card {
+  width: 300px;
+  border: 1px solid rgb(248, 200, 8);
+  box-shadow: 3px 3px 3px 3px #bb2cd9;
+  color: whitesmoke;
+  background: #8b78e6;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  cursor: move;
+}
+.u-card p {
+  font-size: 17px;
+  line-height: 1.65;
+  text-align: center;
+  padding: 5px 5px 80px 5px;
+}
+.u-card img {
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+  bottom: -20%;
+}
+.u-card:hover {
+  transform: translateY(-7px);
+}
+/* end of users */
+
+/*======== 
+footer
+========== */
