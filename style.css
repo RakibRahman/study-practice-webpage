@@ -40,3 +40,287 @@ ul .register a {
   padding: 3px 10px;
   border-radius: 5px;
 }
+/* end of header */
+
+/* =======
+intro-wrapper
+========= */
+.intro-wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/bg.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: 150px 1fr 150px;
+  grid-gap: 10px;
+  place-items: center;
+}
+.intro-wrapper > * {
+  margin: 20px 0 10px 0;
+  grid-column: 2;
+  min-width: 0;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.intro-wrapper .title {
+  margin-top: 150px;
+  margin-left: 50px;
+  font-size: 70px;
+}
+.title span {
+  margin-left: 10%;
+}
+.intro-wrapper h3 {
+  font-weight: 25px;
+}
+.intro-wrapper h2 {
+  margin-top: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5px 50px;
+  background: linear-gradient(to right, rgb(253, 200, 48), rgb(243, 115, 53));
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.intro-wrapper button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+  color: whitesmoke;
+  margin-bottom: 120px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.intro-wrapper h2:hover,
+.intro-wrapper button:hover {
+  transform: translateY(-5px);
+}
+.intro-wrapper img {
+  width: 50%;
+  grid-column: 3;
+  align-self: end;
+  margin-left: 55px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.intro-wrapper img:hover {
+  transform: scale(1.1);
+}
+/* end of .intro-wrapper */
+
+/* ==============
+.intro-wrapper-2
+==================*/
+.intro-wrapper-2 {
+  margin: 20px 10px;
+  padding: 10px;
+  display: flex;
+  background: #eaf0f1;
+}
+.intro-wrapper-2 img {
+  width: 100%;
+  border-radius: 5px;
+}
+.intro-wrapper-2 .details {
+  margin: 80px 40px 0 40px;
+}
+.intro-wrapper-2 .details > * {
+  margin: 20px 0px;
+}
+.details h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.details p {
+  font-size: 22px;
+  line-height: 1.65;
+}
+.details button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #01cbc6;
+  font-size: 18px;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+.details button:hover {
+  transform: translateY(-5px);
+}
+
+/* end of .intro-wrapper-2 */
+
+/*==========
+Evaluate
+=============*/
+.evaluate {
+  background: #ebebeb;
+  color: #000000;
+  padding: 20px;
+}
+
+.evaluate h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 30px 70px;
+}
+.eva-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  margin: 50px 0;
+  padding: 20px;
+}
+.eva-details img {
+  border: 10px solid cornflowerblue;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.eva-details p a {
+  text-decoration: none;
+  color: #3c40c6;
+  font-size: 18px;
+  cursor: pointer;
+}
+.eva-details p a:hover {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.eva-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* end of evaluate */
+
+/* ===========
+Subscription
+================ */
+.subscription-container {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.subscription-container .sub-title {
+  margin: 20px 0;
+  font-size: 50px;
+  width: 80%;
+  text-align: center;
+}
+.subscription {
+  padding: 20px;
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.card .c-info1 {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: aliceblue;
+  background: cornflowerblue;
+  font-weight: bold;
+}
+.card .info2 {
+  background: #f14e0d;
+}
+.card .info3 {
+  background: #2ecc72;
+}
+.c-info1 h2 {
+  margin: 20px 0 10px 0;
+  font-size: 35px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid white;
+}
+
+.card .c-info2 {
+  width: 100%;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: whitesmoke;
+  margin-top: 10px;
+}
+.card .c-info2 > * {
+  margin-top: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+.card .c-info2 .dim {
+  color: gray;
+  text-decoration: line-through;
+}
+.card .c-info2 button {
+  margin: 20px 0;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 18px;
+  color: whitesmoke;
+  background: coral;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+.card .c-info2 button:hover {
+  transform: translateY(-5px);
+}
+/* end of .subscription */
+
+/*=============
+updated
+========*/
+.updated {
+  background: deeppink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.updated h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 10px;
+  color: whitesmoke;
+  width: 75%;
+  margin: 0 auto;
+}
+.updated form {
+  margin-top: 0;
+  padding: 20px;
+}
+form input {
+  width: 250px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+input[type="button"] {
+  width: 100px;
+  color: whitesmoke;
+  background: #27ace6;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
