@@ -398,3 +398,82 @@ footer .footer-info {
 .footer-info .cpy {
   margin-bottom: 10px;
 }
+/* end of footer */
+
+/*==============
+Responsiveness
+=================*/
+@media (max-width: 700px) {
+  .intro-wrapper .title {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 50px;
+    width: 100%;
+  }
+  .title span {
+    margin-left: 0;
+    color: hotpink;
+  }
+  .intro-wrapper-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .subscription-container .sub-title {
+    margin: 20px 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .subscription {
+    padding: 20px;
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .u-card-container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .u-card-container .u-card {
+    margin-bottom: 80px;
+  }
+  .u-card:last-child {
+    margin-bottom: 0px;
+  }
+  .footer-info p {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  header h1 {
+    border-right: 2px solid white;
+    padding-right: 5px;
+  }
+  .intro-wrapper {
+    background-position: center;
+    background-size: 100% 100%;
+    padding-right: 120px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  .intro-wrapper img {
+    width: 20%;
+    margin-left: 120px;
+  }
+  .intro-wrapper .title {
+    margin-top: 50px;
+
+    font-size: 30px;
+  }
+  .title span {
+    margin-left: 0;
+    color: hotpink;
+  }
+
+  .intro-wrapper h2 {
+    width: 300px;
+    height: 200px;
+  }
+}
